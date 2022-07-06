@@ -5,7 +5,13 @@ const plus1 = function (x) {
 // 関数名:
 // 引数:
 // 返り値:
+const number=24
 
+if (number % 3 ===0){
+  console.log(number + "!!!!!!!")
+}else{
+  console.log(number)
+}
 // 練習問題 ２
 // f1: 1, 4, 7, 10, 13, 16, ...
 
