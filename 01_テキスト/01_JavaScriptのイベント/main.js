@@ -13,3 +13,7 @@ const logValue = function (a) {
 
 inputText.oninput = logValue
 inputDate.oninput = logValue
+
+document.onkeydown = function (u) {
+  console.log(u.key)
+}
